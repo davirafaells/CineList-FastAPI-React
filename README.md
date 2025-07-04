@@ -1,8 +1,8 @@
-# 🎬 Projeto Full-Stack - Catálogo de Filmes
+# Projeto Full-Stack - Catálogo de Filmes
 
 Projeto Full-Stack desenvolvido para criar uma plataforma interativa de catálogo de filmes. A aplicação permite que usuários criem contas, façam login, explorem um catálogo de filmes e gerenciem suas listas pessoais de "Favoritos" e "Watchlist".
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 - **Autenticação de Usuários**: Sistema completo de Cadastro e Login com segurança via tokens JWT.
 - **Rotas Públicas e Privadas**:
@@ -15,7 +15,7 @@ Projeto Full-Stack desenvolvido para criar uma plataforma interativa de catálog
 - **Notificações Modernas**: Feedback visual elegante para todas as ações do usuário (login, erros, adicionar/remover filmes) usando `react-hot-toast`.
 - **Imagens Locais**: O backend serve as imagens dos pôsteres localmente para garantir estabilidade e performance.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Backend
 - **Framework**: FastAPI (Python)
@@ -34,16 +34,16 @@ Projeto Full-Stack desenvolvido para criar uma plataforma interativa de catálog
 
 ---
 
-## ⚙️ Como Rodar o Projeto Localmente
+## ⚙Como Rodar o Projeto Localmente
 
-### ✅ Pré-requisitos
+### Pré-requisitos
 
 - Python **3.8+**
 - Node.js e **npm**
 
 ---
 
-### 🔧 Backend (FastAPI)
+### Backend (FastAPI)
 
 1. **Crie e ative um ambiente virtual**:
 
@@ -73,7 +73,7 @@ Projeto Full-Stack desenvolvido para criar uma plataforma interativa de catálog
 
 ---
 
-### 🖥️ Frontend (React + Vite)
+### Frontend (React + Vite)
 
 1. **Abra um novo terminal** e navegue até a pasta `frontend`:
    ```bash
