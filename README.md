@@ -47,47 +47,28 @@ Projeto Full-Stack desenvolvido para criar uma plataforma interativa de catálog
 - Node.js e npm
 
 ### Backend
-1. Navegue até a pasta `backend`:
-   ```bash
-   cd backend
-Use code with caution.
-Markdown
-Crie e ative um ambiente virtual:
-
-Generated bash
+1. Crie e ative um ambiente virtual:
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
-Use code with caution.
-Bash
-Instale as dependências:
 
-Generated bash
+2.Instale as dependências:
+
 pip install -r requirements.txt
-Use code with caution.
-Bash
-Inicie o servidor:
 
-Generated bash
+3.Inicie o servidor:
+
 uvicorn app.main:app --reload --port 8000
-Use code with caution.
-Bash
+
+A API estará disponível em http://127.0.0.1:8000.
+
 Frontend
-Em um novo terminal, navegue até a pasta frontend:
+1. Em um novo terminal, navegue até a pasta frontend:
+  cd frontend
 
-Generated bash
-cd frontend
-Use code with caution.
-Bash
-Instale as dependências:
+2. Instale as dependências:
+   npm install
 
-Generated bash
-npm install
-Use code with caution.
-Bash
-Inicie a aplicação:
+3. Inicie a aplicação:
+   npm run dev
 
-Generated bash
-npm run dev
-Use code with caution.
-Bash
 Acesse http://localhost:5173 (ou a porta indicada pelo Vite) no seu navegador.
